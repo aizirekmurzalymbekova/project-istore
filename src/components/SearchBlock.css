@@ -1,0 +1,35 @@
+@media all and (max-width: 1300px) {
+  .search-block-img {
+    width: 50px;
+  }
+  .search-block {
+    margin: 0px 10px;
+  }
+  .search-block span {
+    font-size: 10px;
+  }
+  .search-block input {
+    font-size: 10px;
+  }
+  .search-block button {
+    font-size: 10px;
+  }
+  .search-block label {
+    font-size: 10px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .search-block span {
+    display: none;
+  }
+  .search-block select {
+    width: 50px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .search-block-img {
+    display: none;
+  }
+}
